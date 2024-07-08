@@ -1,0 +1,94 @@
+/* Start Genral Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --dark-color: #1d2021;
+  --light-color: #ebdbb2;
+  --blue-color: #458588;
+  --red-color: #ea6962;
+  --yellow-color: #d8a657;
+}
+body {
+  font-family: "Fira Code";
+}
+.btn-main {
+  background-color: var(--red-color);
+  color: var(--dark-color);
+}
+.btn-main:hover {
+  background-color: var(--yellow-color);
+  color: var(--light-color);
+}
+/* End Genral Style */
+
+/* Start Navbar */
+.navbar {
+  background-color: var(--dark-color);
+}
+
+.navbar .nav-link {
+  color: var(--light-color);
+}
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+  color: var(--blue-color);
+}
+
+.navbar .navbar-toggler {
+  color: var(--light-color);
+  border-color: var(--light-color);
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  color: var(--blue-color);
+  border-color: var(--blue-color);
+}
+
+.navbar .search {
+  border-left: 1px solid var(--blue-color);
+}
+.navbar .search svg {
+  color: var(--blue-color);
+}
+/* End Navbar */
+/* start leading  */
+.leading {
+  background-color: var(--dark-color);
+  height: calc(100dvh - 72px);
+}
+/* End Leading   */
+
+/* start features */
+.main-title::after {
+  content: "";
+  position: absolute;
+  background-color: var(--blue-color);
+  height: 2px;
+  width: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.features {
+  height: calc(100dvh - 72px);
+}
+.hold-icons {
+  height: 200px;
+}
+
+.hold-icons svg {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hold-icons .number {
+  height: 12rem;
+}
+.hold-icons .icon {
+  color: var(--blue-color);
+}
+.features h4 {
+  color: var(--yellow-color);
+}

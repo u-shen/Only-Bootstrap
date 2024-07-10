@@ -73,7 +73,7 @@ body {
   transform: translateX(-50%);
 }
 .features {
-  height: calc(100dvh - 72px);
+  min-height: calc(100dvh - 72px);
 }
 .hold-icons {
   height: 200px;
@@ -91,4 +91,126 @@ body {
 }
 .features h4 {
   color: var(--yellow-color);
+}
+
+/* Start work */
+.work {
+  background: #2e3b3b;
+  min-height: calc(100dvh - 72px);
+}
+.work li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.work li.active {
+  background-color: var(--red-color);
+  color: var(--dark-color);
+}
+.work li:not(.active):hover {
+  color: var(--red-color);
+}
+.work .box {
+  position: relative;
+  margin: 0.5rem;
+}
+.work .box img {
+  padding: 15px;
+  border-radius: 8px;
+}
+.work .box:before {
+  content: attr(data-work);
+  background-color: rgba(234, 105, 98, 0.4);
+  position: absolute;
+  width: 100%;
+  height: calc(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.6rem;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.work .box:hover::before {
+  justify-content: center;
+  align-items: flex-end;
+  background-color: rgba(234, 105, 98, 0.1);
+  height: calc(100% + 20px);
+}
+/* End work */
+.about-parghph {
+  max-width: 500px;
+}
+.about {
+  min-height: calc(100dvh - 90px);
+  background-color: var(--light-color);
+}
+button {
+  min-width: 300px;
+}
+/* End About */
+/* Start Team */
+.team {
+  min-height: calc(100dvh - 72px);
+  background: #2e3b3b;
+}
+
+.team h3 {
+  color: var(--yellow-color);
+}
+.team-box {
+  height: 500px;
+  border-radius: 8px;
+}
+.team-box h2 {
+  background-color: var(--blue-color);
+}
+.team-box img {
+  height: 300px;
+  width: 100%;
+}
+/* End Team */
+/* Start Techs & Projects */
+.techs {
+  background-color: var(--light-color);
+}
+.techs,
+.projects {
+  min-height: 50dvh;
+}
+.projects {
+  background: #2e3b3b;
+}
+.projects button,
+.blog button {
+  min-width: 161px;
+}
+/* End Techs & Projects */
+/* Start Blog */
+.blog {
+  min-height: calc(100dvh - 72px);
+  background-color: var(--light-color);
+}
+/* End Blog */
+/* start Subscribe */
+.subscribe {
+  background: var(--yellow-color);
+}
+.subscribe .btn-main {
+  background-color: var(--blue-color);
+  color: var(--yellow-color);
+  width: 150px;
+}
+input[type="email"] {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  min-width: 30%;
+  outline: none;
+}
+
+input[type="email"]::placeholder {
+  color: white;
 }

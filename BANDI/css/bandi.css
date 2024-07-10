@@ -146,7 +146,7 @@ body {
   min-height: calc(100dvh - 90px);
   background-color: var(--light-color);
 }
-button {
+button:not(.navbar button) {
   min-width: 300px;
 }
 /* End About */

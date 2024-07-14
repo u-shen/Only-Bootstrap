@@ -1,5 +1,9 @@
-# Web Site Desgin Focsuing To Improve My Skills In BOOTSTRAP
+# Welcome to My Bootstrap Projects!
 
-[x] BANDI
-[x] EliteCrop
-[] HELLSINGS (novacustom)
+Just I want To Learn NEW Css Freamwork For Fun<br>
+And Because **Bootstrap** Is Cool I Endeed Up Creating This Desgin<br>
+
+- [x] BANDI
+      **_[See Bandi](https://u-shen.github.io/Bandi-Web-Site/)_**
+- [x] EliteCrop
+- [ ] HELLSINGS (novacustom)

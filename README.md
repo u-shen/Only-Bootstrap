@@ -5,7 +5,7 @@ And Because **Bootstrap** Is Cool I Endeed Up Creating This Desgin<br>
 
 - [x] BANDI
       **_[See Bandi](https://u-shen.github.io/Bandi-Web-Site/)_**
-- [x] EliteCrop
-- [ ] HELLSINGS (novacustom)
+- [x] RTL-ARABIC
+- [x] HELLSINGS (novacustom)
 
 **[Bootstrap cheatsheet](https://bootstrap-cheatsheet.themeselection.com/)**
